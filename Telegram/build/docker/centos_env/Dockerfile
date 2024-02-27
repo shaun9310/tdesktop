@@ -13,7 +13,7 @@
 
 # syntax=docker/dockerfile:1
 
-FROM centos:7 AS builder-base
+FROM centos:centos8 AS builder-base
 ENV LANG en_US.UTF-8
 ENV LIBRARY_PATH /usr/local/lib64:/usr/local/lib:/lib64:/lib:/usr/lib64:/usr/lib
 ENV LD_LIBRARY_PATH $LIBRARY_PATH
